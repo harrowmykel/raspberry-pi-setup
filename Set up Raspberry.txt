@@ -1,0 +1,76 @@
+HOW TO SET UP A RASPBERRY PI (via SSH and Without a monitor)
+
+
+STEP 1
+What you need 
+	- Raspberry PI Device
+	- SD Card + 
+	- SD Card Adapter (Size must be at least 3GB)
+	- Computer/Laptop
+	- Raspberry PI Power Supply
+	- Command line
+
+
+-----------
+
+STEP 2
+
+
+Insert SD card into SD Card Adapter
+Insert into SD Slot in your computer
+
+
+Format the SD card
+
+Go to https://www.raspberrypi.com/software/
+or search google for Raspberry PI OS 
+
+
+It formats the SD card and installs Raspberry OS for you 
+
+Wait till it completes
+
+remove sd card
+reinsert
+do not format your sd card again
+
+create 'ssh' file to allow ssh access
+
+create wpa_supplicant.conf file to automatically connect to wifi when device starts
+
+go to https://github.com//harrowmykel/raspberry-pi-setup
+
+copy content of wpa_supplicant.conf
+paste into your file
+
+
+always safely eject your sd card
+--------------
+
+STEP 3 
+
+connect you raspberry to a power supply via the charger
+
+
+Log into your router to find out the wifi address of your raspberry pi
+
+
+start command line
+
+use
+ssh pi@raspberrypi_address
+
+for example
+
+
+
+----
+password is raspberry
+
+change your password to improve the security
+
+
+when you type your password it will not be shown on the screen
+
+
+
